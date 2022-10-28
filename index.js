@@ -9,6 +9,10 @@ const courses = require('./coursedata/coursedata.json');
 
 const categories = require('./coursedata/categories.json');
 
+app.get('/',(req,res)=>{
+    res.send('Yes working!');
+    
+});
 
 app.get('/courses',(req,res)=>{
     res.send(courses);
