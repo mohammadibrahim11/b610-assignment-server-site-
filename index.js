@@ -47,7 +47,7 @@ app.get('/category/:id', (req, res) => {
 
 
 
-app.listen(5000, ()=>console.log("server running on port 5000"));
+app.listen(5000, ()=>console.log("server is running on port 5000"));
 
 //export the express API
 
